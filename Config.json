@@ -1,0 +1,13 @@
+{
+  "SolutionPath": "C:\\Users\\11030056\\Desktop\\VM\\solution.solw",
+  "SaveNGImagePath": "C:\\VisionMaster\\NGImages",
+  "DateFormat": "yyyy-MM-dd",
+  "ExpiryDays": 180,
+  "TargetOKCount": 0,
+  "TargetNGCount": 0,
+  "PLCSettings": {
+    "IP": "192.168.1.100",
+    "Port": 5000,
+    "Enabled": true
+  }
+}

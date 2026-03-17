@@ -1,0 +1,17 @@
+C:\Users\11030056\source\repos\Vision_Master\Vision_Master\obj\Debug\Vision_Master.csproj.AssemblyReference.cache
+C:\Users\11030056\source\repos\Vision_Master\Vision_Master\obj\Debug\Vision_Master.Properties.Resources.resources
+C:\Users\11030056\source\repos\Vision_Master\Vision_Master\obj\Debug\Vision_Master.csproj.GenerateResource.cache
+C:\Users\11030056\source\repos\Vision_Master\Vision_Master\obj\Debug\Vision_Master.csproj.CoreCompileInputs.cache
+C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\Vision_Master.exe.config
+C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\Vision_Master.exe
+C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\Vision_Master.pdb
+C:\Users\11030056\source\repos\Vision_Master\Vision_Master\obj\Debug\Vision_Master.exe
+C:\Users\11030056\source\repos\Vision_Master\Vision_Master\obj\Debug\Vision_Master.pdb
+C:\Users\11030056\source\repos\Vision_Master\Vision_Master\obj\Debug\Vision_Master.LoadingForm.resources
+C:\Users\11030056\source\repos\Vision_Master\Vision_Master\obj\Debug\Vision_Master.LoginForm.resources
+C:\Users\11030056\source\repos\Vision_Master\Vision_Master\obj\Debug\Vision_Master.LogViewerForm.resources
+C:\Users\11030056\source\repos\Vision_Master\Vision_Master\obj\Debug\Vision_Master.exe.config
+C:\Users\11030056\source\repos\Vision_Master\Vision_Master\obj\Debug\Vision_Master.MainForm.resources
+C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\Newtonsoft.Json.dll
+C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\Newtonsoft.Json.xml
+C:\Users\11030056\source\repos\Vision_Master\Vision_Master\obj\Debug\Vision_M.A7706CC5.Up2Date

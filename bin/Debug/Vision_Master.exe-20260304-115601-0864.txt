@@ -1,0 +1,53 @@
+KERNEL32			2084-12-15 08:51:11
+KERNELBASE			2007-01-17 07:32:31
+clr			2025-03-20 07:11:46
+mscorlib.ni			2025-03-20 07:11:30
+ntdll			2018-08-11 02:48:14
+
+ExceptionCode : CLR_CCR_EXCEPTION
+
+CallStack:
+
+Frame 0: KERNELBASE.dll!  RaiseException
+
+Frame 1: clr.dll!  IEE
+
+Frame 2: clr.dll!  IEE
+
+Frame 3: mscorlib.ni.dll!  Unknow
+
+Frame 4: mscorlib.ni.dll!  Unknow
+
+Frame 5: mscorlib.ni.dll!  Unknow
+
+Frame 6: mscorlib.ni.dll!  Unknow
+
+Frame 7: mscorlib.ni.dll!  Unknow
+
+Frame 8: clr.dll!  DllCanUnloadNowInternal
+
+Frame 9: clr.dll!  Unknow
+
+Frame 10: clr.dll!  Unknow
+
+Frame 11: clr.dll!  Unknow
+
+Frame 12: clr.dll!  Unknow
+
+Frame 13: clr.dll!  Unknow
+
+Frame 14: clr.dll!  Unknow
+
+Frame 15: clr.dll!  Unknow
+
+Frame 16: clr.dll!  StrongNameSignatureVerification
+
+Frame 17: clr.dll!  CreateAssemblyNameObject
+
+Frame 18: clr.dll!  CreateAssemblyNameObject
+
+Frame 19: clr.dll!  IsOS
+
+Frame 20: KERNEL32.dll!  BaseThreadInitThunk
+
+Frame 21: ntdll.dll!  RtlUserThreadStart

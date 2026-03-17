@@ -1,0 +1,29 @@
+[2025-11-14 21:19:49] [Info] 應用程式初始化開始
+[2025-11-14 21:19:50] [Info] 找到視覺方案檔案: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-14 21:19:51] [Info] 應用程式初始化完成
+[2025-11-14 21:19:51] [Info] 程式啟動，版本號: 1.0.0
+[2025-11-14 21:19:53] [Info] [LoadSolution] SDK 未初始化，開始初始化...
+[2025-11-14 21:19:53] [Info] [SDK] 開始呼叫 PlatformSDK.Initialize()...
+[2025-11-14 21:19:53] [Info] [SDK] PlatformSDK.Initialize() 成功
+[2025-11-14 21:19:53] [Info] [SDK] VmSolution.Instance 已就緒
+[2025-11-14 21:19:53] [Info] [LoadSolution] 步驟 1: 準備載入方案
+[2025-11-14 21:19:53] [Info] [LoadSolution] 方案路徑: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-14 21:19:53] [Info] [LoadSolution] 步驟 2: 檔案存在，準備呼叫 VmSolution.Load()
+[2025-11-14 21:19:53] [Info] [LoadSolution] VmSolution.Instance 載入前狀態: 已存在
+[2025-11-14 21:19:53] [Info] [LoadSolution] 步驟 3: 開始載入方案...
+[2025-11-14 21:19:53] [Error] [LoadSolution] VmSolution.Load() 內部錯誤: 並未將物件參考設定為物件的執行個體。
+[2025-11-14 21:19:53] [Error] [LoadSolution] 載入視覺方案失敗: 並未將物件參考設定為物件的執行個體。
+[2025-11-14 21:19:53] [Error] [LoadSolution] 例外類型: System.NullReferenceException
+[2025-11-14 21:19:53] [Error] [LoadSolution] 堆疊追蹤:    於 VM.Core.VmSolution.Load(String path, String password, Boolean isSilentExecute)
+   於 Vision_Master.Core.VmSolutionManager.<>c__DisplayClass4_0.<LoadSolution>b__0() 於 C:\Users\11030056\source\repos\Vision_Master\Vision_Master\VmSolutionManager.cs: 行 157
+   於 System.Threading.Tasks.Task.InnerInvoke()
+   於 System.Threading.Tasks.Task.Execute()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   於 Vision_Master.Core.VmSolutionManager.<LoadSolution>d__4.MoveNext() 於 C:\Users\11030056\source\repos\Vision_Master\Vision_Master\VmSolutionManager.cs: 行 147
+[2025-11-14 21:19:55] [Info] 自動載入視覺方案失敗，請手動載入
+[2025-11-14 21:21:01] [Info] 程式已退出
+[2025-11-14 21:21:01] [Warning] 釋放視覺方案資源時發生錯誤: 'VM.PlatformSDKCS.CVmObjectBase' 的類型初始設定式發生例外狀況。
+[2025-11-14 21:21:01] [Info] [SDK] PlatformSDK.Uninitialize() 已呼叫

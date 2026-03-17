@@ -1,0 +1,40 @@
+2026-03-04 11:55:47.546 INFO  [31792] [Hkr_InitLog@184] ------------------- hkr init logger: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\log/hkr/hkr.log ---------------------------
+
+2026-03-04 11:55:47.546 INFO  [31792] [Hkr_InitLog@185] hkr path: C:\Program Files\VisionMaster4.4.20\Applications\PublicFile\x64\hkr.dll
+
+2026-03-04 11:55:47.546 INFO  [31792] [Hkr_InitLog@186] hkr version: hkr.version: build 20250319-1510685
+
+2026-03-04 11:55:47.546 INFO  [31792] [Hkr_InitLog@187] hkr init count: 1
+
+2026-03-04 11:55:47.546 INFO  [31792] [ReadDebugFlagThread@70] ReadDebugFlag thread exit
+
+2026-03-04 11:56:23.067 INFO  [32588] [Hkr_InitLog@184] ------------------- hkr init logger: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\log/hkr/hkr.log ---------------------------
+
+2026-03-04 11:56:23.067 INFO  [32588] [Hkr_InitLog@185] hkr path: C:\Program Files\VisionMaster4.4.20\Applications\PublicFile\x64\hkr.dll
+
+2026-03-04 11:56:23.067 INFO  [32588] [Hkr_InitLog@186] hkr version: hkr.version: build 20250319-1510685
+
+2026-03-04 11:56:23.067 INFO  [32588] [Hkr_InitLog@187] hkr init count: 1
+
+2026-03-04 11:56:23.088 INFO  [32588] [ReadDebugFlagThread@70] ReadDebugFlag thread exit
+
+2026-03-04 12:02:35.291 INFO  [9140] [Hkr_InitLog@184] ------------------- hkr init logger: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\log/hkr/hkr.log ---------------------------
+
+2026-03-04 12:02:35.291 INFO  [9140] [Hkr_InitLog@185] hkr path: C:\Program Files\VisionMaster4.4.20\Applications\PublicFile\x64\hkr.dll
+
+2026-03-04 12:02:35.291 INFO  [9140] [Hkr_InitLog@186] hkr version: hkr.version: build 20250319-1510685
+
+2026-03-04 12:02:35.291 INFO  [9140] [Hkr_InitLog@187] hkr init count: 1
+
+2026-03-04 12:02:35.302 INFO  [9140] [ReadDebugFlagThread@70] ReadDebugFlag thread exit
+
+2026-03-04 12:03:31.701 INFO  [31024] [Hkr_InitLog@184] ------------------- hkr init logger: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\log/hkr/hkr.log ---------------------------
+
+2026-03-04 12:03:31.701 INFO  [31024] [Hkr_InitLog@185] hkr path: C:\Program Files\VisionMaster4.4.20\Applications\PublicFile\x64\hkr.dll
+
+2026-03-04 12:03:31.701 INFO  [31024] [Hkr_InitLog@186] hkr version: hkr.version: build 20250319-1510685
+
+2026-03-04 12:03:31.701 INFO  [31024] [Hkr_InitLog@187] hkr init count: 1
+
+2026-03-04 12:03:31.702 INFO  [31024] [ReadDebugFlagThread@70] ReadDebugFlag thread exit
+

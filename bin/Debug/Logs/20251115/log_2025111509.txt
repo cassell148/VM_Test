@@ -1,0 +1,113 @@
+[2025-11-15 09:25:31] [Info] 應用程式初始化開始
+[2025-11-15 09:25:32] [Info] 找到視覺方案檔案: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-15 09:25:33] [Info] 應用程式初始化完成
+[2025-11-15 09:25:33] [Info] 程式啟動，版本號: 1.0.0
+[2025-11-15 09:25:35] [Info] [LoadSolution] SDK 未初始化，開始初始化...
+[2025-11-15 09:25:35] [Info] [SDK] 開始呼叫 PlatformSDK.Initialize()...
+[2025-11-15 09:25:35] [Info] [SDK] PlatformSDK.Initialize() 成功
+[2025-11-15 09:25:35] [Info] [SDK] VmSolution.Instance 已就緒
+[2025-11-15 09:25:35] [Info] [LoadSolution] 步驟 1: 準備載入方案
+[2025-11-15 09:25:35] [Info] [LoadSolution] 方案路徑: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-15 09:25:35] [Info] [LoadSolution] 步驟 2: 檔案存在，準備呼叫 VmSolution.Load()
+[2025-11-15 09:25:35] [Info] [LoadSolution] VmSolution.Instance 載入前狀態: 已存在
+[2025-11-15 09:25:35] [Info] [LoadSolution] 步驟 3: 開始載入方案...
+[2025-11-15 09:25:35] [Error] [LoadSolution] VmSolution.Load() 內部錯誤: 並未將物件參考設定為物件的執行個體。
+[2025-11-15 09:25:35] [Error] [LoadSolution] 載入視覺方案失敗: 並未將物件參考設定為物件的執行個體。
+[2025-11-15 09:25:36] [Error] [LoadSolution] 例外類型: System.NullReferenceException
+[2025-11-15 09:25:36] [Error] [LoadSolution] 堆疊追蹤:    於 VM.Core.VmSolution.Load(String path, String password, Boolean isSilentExecute)
+   於 Vision_Master.Core.VmSolutionManager.<>c__DisplayClass4_0.<LoadSolution>b__0() 於 C:\Users\11030056\source\repos\Vision_Master\Vision_Master\VmSolutionManager.cs: 行 157
+   於 System.Threading.Tasks.Task.InnerInvoke()
+   於 System.Threading.Tasks.Task.Execute()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   於 Vision_Master.Core.VmSolutionManager.<LoadSolution>d__4.MoveNext() 於 C:\Users\11030056\source\repos\Vision_Master\Vision_Master\VmSolutionManager.cs: 行 147
+[2025-11-15 09:25:40] [Info] 自動載入視覺方案失敗，請手動載入
+[2025-11-15 09:25:56] [Info] 使用者選擇載入視覺方案: C:\Users\11030056\Desktop\VM\solution.solw
+[2025-11-15 09:25:56] [Info] [LoadSolutionFromFile] 開始非同步載入方案
+[2025-11-15 09:25:56] [Error] [LoadSolutionFromFile] 載入視覺方案失敗: 並未將物件參考設定為物件的執行個體。
+[2025-11-15 09:25:56] [Error] [LoadSolutionFromFile] 堆疊追蹤:    於 VM.Core.VmSolution.Load(String path, String password, Boolean isSilentExecute)
+   於 Vision_Master.Core.VmSolutionManager.<>c__DisplayClass5_0.<LoadSolutionFromFile>b__1() 於 C:\Users\11030056\source\repos\Vision_Master\Vision_Master\VmSolutionManager.cs: 行 242
+   於 System.Threading.Tasks.Task.InnerInvoke()
+   於 System.Threading.Tasks.Task.Execute()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   於 Vision_Master.Core.VmSolutionManager.<LoadSolutionFromFile>d__5.MoveNext() 於 C:\Users\11030056\source\repos\Vision_Master\Vision_Master\VmSolutionManager.cs: 行 242
+[2025-11-15 09:31:38] [Info] 程式已退出
+[2025-11-15 09:31:38] [Warning] 釋放視覺方案資源時發生錯誤: 'VM.PlatformSDKCS.CVmObjectBase' 的類型初始設定式發生例外狀況。
+[2025-11-15 09:31:38] [Info] [SDK] PlatformSDK.Uninitialize() 已呼叫
+[2025-11-15 09:32:04] [Info] 應用程式初始化開始
+[2025-11-15 09:32:05] [Info] 找到視覺方案檔案: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-15 09:32:05] [Info] 應用程式初始化完成
+[2025-11-15 09:32:05] [Info] 程式啟動，版本號: 1.0.0
+[2025-11-15 09:32:07] [Info] [LoadSolution] 準備載入方案
+[2025-11-15 09:32:07] [Info] [LoadSolution] 方案路徑: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-15 09:32:07] [Info] [LoadSolution] 開始載入方案...
+[2025-11-15 09:32:07] [Error] [LoadSolution] 載入視覺方案失敗: 並未將物件參考設定為物件的執行個體。
+[2025-11-15 09:32:07] [Error] [LoadSolution] 例外類型: System.NullReferenceException
+[2025-11-15 09:32:07] [Error] [LoadSolution] 堆疊追蹤:    於 VM.Core.VmSolution.Load(String path, String password, Boolean isSilentExecute)
+   於 Vision_Master.Core.VmSolutionManager.<>c__DisplayClass0_0.<LoadSolution>b__0() 於 C:\Users\11030056\source\repos\Vision_Master\Vision_Master\VmSolutionManager.cs: 行 43
+   於 System.Threading.Tasks.Task.InnerInvoke()
+   於 System.Threading.Tasks.Task.Execute()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   於 Vision_Master.Core.VmSolutionManager.<LoadSolution>d__0.MoveNext() 於 C:\Users\11030056\source\repos\Vision_Master\Vision_Master\VmSolutionManager.cs: 行 43
+[2025-11-15 09:32:11] [Info] 自動載入視覺方案失敗，請手動載入
+[2025-11-15 09:33:01] [Info] 程式已退出
+[2025-11-15 09:33:01] [Warning] 釋放視覺方案資源時發生錯誤: 'VM.PlatformSDKCS.CVmObjectBase' 的類型初始設定式發生例外狀況。
+[2025-11-15 09:33:49] [Info] 應用程式初始化開始
+[2025-11-15 09:33:50] [Info] 找到視覺方案檔案: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-15 09:33:51] [Info] 應用程式初始化完成
+[2025-11-15 09:33:51] [Info] 程式啟動，版本號: 1.0.0
+[2025-11-15 09:33:52] [Info] [LoadSolution] 準備載入方案
+[2025-11-15 09:33:52] [Info] [LoadSolution] 方案路徑: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-15 09:33:52] [Info] [LoadSolution] 開始載入方案...
+[2025-11-15 09:34:13] [Info] 應用程式初始化開始
+[2025-11-15 09:34:14] [Info] 找到視覺方案檔案: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-15 09:34:15] [Info] 應用程式初始化完成
+[2025-11-15 09:34:15] [Info] 程式啟動，版本號: 1.0.0
+[2025-11-15 09:34:16] [Info] [LoadSolution] 準備載入方案
+[2025-11-15 09:34:16] [Info] [LoadSolution] 方案路徑: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-15 09:34:16] [Info] [LoadSolution] 開始載入方案...
+[2025-11-15 09:34:23] [Error] [LoadSolution] 載入視覺方案失敗 (VmException: 0xE0000700): IMVS_EC_ENCRYPT_DONGLE_OUTDATE:Dongle not detected!
+[2025-11-15 09:34:23] [Error] [LoadSolution] 堆疊追蹤:    於 VM.Core.VmSolution.Load(String path, String password, Boolean isSilentExecute)
+   於 Vision_Master.Core.VmSolutionManager.<>c__DisplayClass0_0.<LoadSolution>b__0() 於 C:\Users\11030056\source\repos\Vision_Master\Vision_Master\VmSolutionManager.cs: 行 43
+   於 System.Threading.Tasks.Task.Execute()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   於 Vision_Master.Core.VmSolutionManager.<LoadSolution>d__0.MoveNext() 於 C:\Users\11030056\source\repos\Vision_Master\Vision_Master\VmSolutionManager.cs: 行 43
+[2025-11-15 09:34:28] [Info] 自動載入視覺方案失敗，請手動載入
+[2025-11-15 09:39:02] [Info] 應用程式初始化開始
+[2025-11-15 09:39:03] [Info] 找到視覺方案檔案: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-15 09:39:04] [Info] 應用程式初始化完成
+[2025-11-15 09:39:04] [Info] 程式啟動，版本號: 1.0.0
+[2025-11-15 09:39:05] [Info] [LoadSolution] 準備載入方案
+[2025-11-15 09:39:05] [Info] [LoadSolution] 方案路徑: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-15 09:39:05] [Info] [LoadSolution] 開始載入方案...
+[2025-11-15 09:39:07] [Info] [LoadSolution] VmSolution.Load() 執行完成
+[2025-11-15 09:39:07] [Info] [LoadSolution] 載入成功
+[2025-11-15 09:39:07] [Info] [LoadSolution] 方案路徑: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-15 09:39:08] [Info] 已載入流程: 相機1
+[2025-11-15 09:39:38] [Info] 使用者登入
+[2025-11-15 09:40:05] [Info] 流程 相機1 開始檢測
+[2025-11-15 09:40:05] [Error] 檢測結束處理錯誤: 輸入字串格式不正確。
+[2025-11-15 09:41:01] [Info] 程式已退出
+[2025-11-15 09:41:01] [Info] 視覺方案資源已釋放
+[2025-11-15 09:46:51] [Info] 應用程式初始化開始
+[2025-11-15 09:46:52] [Info] 找到視覺方案檔案: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-15 09:46:53] [Info] 應用程式初始化完成
+[2025-11-15 09:46:53] [Info] 程式啟動，版本號: 1.0.0
+[2025-11-15 09:46:54] [Info] [LoadSolution] 準備載入方案
+[2025-11-15 09:46:54] [Info] [LoadSolution] 方案路徑: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-15 09:46:54] [Info] [LoadSolution] 開始載入方案...
+[2025-11-15 09:46:56] [Info] [LoadSolution] VmSolution.Load() 執行完成
+[2025-11-15 09:46:56] [Info] [LoadSolution] 載入成功
+[2025-11-15 09:46:56] [Info] [LoadSolution] 方案路徑: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-15 09:46:57] [Info] 已載入流程: 相機1

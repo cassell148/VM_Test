@@ -1,0 +1,23 @@
+[2025-11-17 16:02:05] [Info] 應用程式初始化開始
+[2025-11-17 16:02:06] [Info] 找到視覺方案檔案: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-17 16:02:07] [Info] 應用程式初始化完成
+[2025-11-17 16:02:07] [Info] 程式啟動，版本號: 1.0.0
+[2025-11-17 16:02:11] [Info] ========================================
+[2025-11-17 16:02:11] [Info] [MainForm] 主窗體載入開始
+[2025-11-17 16:02:11] [Info] ========================================
+[2025-11-17 16:02:11] [Info] 產品配置載入成功，當前產品: 巷口乾麵
+[2025-11-17 16:02:11] [Info] [Detection] 檢測頁面初始化完成
+[2025-11-17 16:02:11] [Info] [VisionMaster] VisionMaster 設定頁面初始化完成
+[2025-11-17 16:02:11] [Info] [Product] 產品設定頁面初始化完成
+[2025-11-17 16:02:11] [Info] [System] 系統設定頁面初始化完成
+[2025-11-17 16:02:11] [Info] [PLC] 初始化 PLC: 192.168.1.100:5000
+[2025-11-17 16:02:11] [Info] [PLC] 正在連接 192.168.1.100:5000...
+[2025-11-17 16:02:32] [Info] [PLC] 連接失敗: 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。 192.168.1.100:5000
+[2025-11-17 16:02:32] [Warning] [PLC] PLC 連接失敗
+[2025-11-17 16:02:32] [Info] [LoadSolution] 準備載入方案
+[2025-11-17 16:02:32] [Info] [LoadSolution] 方案路徑: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-17 16:02:32] [Info] [LoadSolution] 開始載入方案...
+[2025-11-17 16:02:32] [Info] [LoadSolution] VmSolution.Load() 執行完成
+[2025-11-17 16:02:32] [Info] [LoadSolution] 載入成功
+[2025-11-17 16:02:32] [Info] [LoadSolution] 方案路徑: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-17 16:02:32] [Info] [MainForm] 主窗體載入完成

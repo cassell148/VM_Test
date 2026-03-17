@@ -1,0 +1,178 @@
+Vision Master 專案完整清單
+=================================
+
+## 📂 資料夾結構
+
+Vision_Master/
+├── 📄 Vision_Master.csproj       # Visual Studio 專案檔
+├── 📄 Program.cs                 # 程式進入點
+├── 📄 MainForm.cs                # 主視窗（單相機）
+├── 📄 MainForm.Designer.cs       # 主視窗設計器
+├── 📄 MainForm.resx              # 主視窗資源檔
+├── 📄 Config.ini                 # 配置檔案範例
+├── 📄 README.md                  # 專案說明文件
+│
+├── 📁 Forms/                     # 表單目錄
+│   ├── LoadingForm.cs            # 載入畫面
+│   ├── LoadingForm.Designer.cs
+│   ├── LoadingForm.resx
+│   ├── LoginForm.cs              # 登入視窗
+│   ├── LoginForm.Designer.cs
+│   ├── LoginForm.resx
+│   ├── LogViewerForm.cs          # 日誌檢視器
+│   ├── LogViewerForm.Designer.cs
+│   └── LogViewerForm.resx
+│
+└── 📁 Core/                      # 核心類別目錄
+    ├── ConfigManager.cs          # 配置管理器
+    ├── Logger.cs                 # 日誌系統
+    ├── IniFile.cs                # INI 檔案處理
+    ├── SolutionManager.cs        # 視覺方案管理
+    └── TabPageController.cs      # Tab 控制器
+
+
+## 📋 檔案說明
+
+### 主要檔案
+
+1. **Program.cs** (5.3 KB)
+   - 應用程式進入點
+   - Mutex 單例檢查
+   - 初始化流程控制
+   - 載入配置與方案
+
+2. **MainForm.cs** (15.9 KB)
+   - 主視窗介面
+   - 單相機檢測邏輯
+   - 選單與狀態列
+   - 檢測結果顯示
+
+3. **Config.ini** (174 Bytes)
+   - PLC 連線設定
+   - 視覺檢測參數
+   - 登入帳密資訊
+
+### Core 核心類別 (共 41 KB)
+
+1. **ConfigManager.cs** (4.3 KB)
+   - 讀取/儲存 INI 配置
+   - 參數驗證
+   - 密碼編碼
+
+2. **Logger.cs** (6.0 KB)
+   - 日誌檔案管理
+   - UI 同步顯示
+   - 三級日誌系統
+
+3. **IniFile.cs** (18.1 KB)
+   - 完整的 INI 檔案操作
+   - 多種編碼支援
+   - 型別轉換
+
+4. **SolutionManager.cs** (10.1 KB)
+   - VisionMaster 方案管理
+   - 載入/儲存/另存
+   - 錯誤處理
+
+5. **TabPageController.cs** (2.5 KB)
+   - 動態 Tab 顯示控制
+   - 保持原始順序
+
+### Forms 表單類別 (共 30 KB)
+
+1. **LoadingForm.cs** (3.9 KB)
+   - 啟動載入畫面
+   - 進度提示
+   - 自訂邊框
+
+2. **LoginForm.cs** (6.0 KB)
+   - 權限登入介面
+   - 帳密驗證
+   - 自訂邊框
+
+3. **LogViewerForm.cs** (6.1 KB)
+   - 日誌檢視器
+   - 日期選擇
+   - 非同步讀取
+
+
+## 🎯 相較於原專案的改進
+
+### ✅ 已改進項目
+
+1. **架構優化**
+   - 統一 namespace 為 Vision_Master
+   - 分離 Core 和 Forms 目錄
+   - 單一職責原則
+
+2. **安全性提升**
+   - 密碼 Base64 編碼
+   - 從配置檔讀取
+   - 支援修改密碼
+
+3. **錯誤處理**
+   - 完整的 try-catch
+   - 詳細錯誤日誌
+   - 友善錯誤提示
+
+4. **程式碼品質**
+   - 完整註解
+   - 統一命名規則
+   - 移除魔法數字
+
+5. **簡化架構**
+   - 從雙相機簡化為單相機
+   - 移除重複程式碼
+   - 清晰的流程
+
+
+## 🔧 使用前準備
+
+### 必要步驟
+
+1. **加入 VisionMaster SDK 引用**
+   需要手動加入以下 DLL：
+   - VM.Core.dll
+   - VM.PlatformSDKCS.dll
+   - VMControls.Winform.Release.dll
+   - IMVSEdgeWidthFindModuCs.dll
+
+2. **準備 solution.solw**
+   - 建立視覺檢測方案
+   - 至少包含一個 Procedure
+   - 必須有 "間距檢測1" 工具
+   - Height 輸出格式: "狀態;像素值"
+
+3. **修改 Config.ini**
+   - 設定正確的 PLC IP/Port
+   - 調整 PixelToMM 比例
+   - 修改登入帳密
+
+### 編譯步驟
+
+1. 用 Visual Studio 開啟 Vision_Master.csproj
+2. 加入 VisionMaster SDK 引用
+3. 建置專案
+4. 將 Config.ini 和 solution.solw 放到執行檔目錄
+5. 執行 Vision_Master.exe
+
+
+## 📧 注意事項
+
+1. **Config.ini 必須存在**，否則程式無法啟動
+2. **預設帳密**: admin / 123456
+3. **PixelToMM 需校正**：根據實際相機設定調整
+4. **檢測結果格式固定**："OK;150.5" 或 "NG;145.2"
+
+
+## 📝 版本資訊
+
+- **版本**: 1.0.0
+- **建立日期**: 2024-11-14
+- **框架**: .NET Framework 4.8
+- **相機數量**: 單相機
+- **基於專案**: Control (雙相機版本)
+
+
+---
+專案已完成！可以直接在 Visual Studio 中開啟使用。

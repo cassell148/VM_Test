@@ -1,0 +1,15 @@
+{
+  "products": [
+    {
+      "name": "巷口乾麵",
+      "daysOffset": 365,
+      "code": "M1216XX"
+    },
+    {
+      "name": "巷口麵線",
+      "daysOffset": 365,
+      "code": "M1217XX"
+    }
+  ],
+  "currentProduct": "巷口麵線"
+}

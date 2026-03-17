@@ -1,0 +1,125 @@
+[2025-11-14 20:24:46] [Info] 應用程式初始化開始
+[2025-11-14 20:24:47] [Warning] 找不到視覺方案檔案: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-14 20:24:49] [Info] 應用程式初始化完成
+[2025-11-14 20:24:49] [Info] 程式啟動，版本號: 1.0.0
+[2025-11-14 20:24:50] [Info] [LoadSolution] 步驟 1: 準備載入方案
+[2025-11-14 20:24:50] [Info] [LoadSolution] 方案路徑: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-14 20:24:50] [Warning] 找不到視覺方案檔案: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-14 20:24:50] [Info] 自動載入視覺方案失敗，請手動載入
+[2025-11-14 20:24:54] [Info] 使用者選擇載入視覺方案: C:\Users\11030056\Desktop\VM\solution.solw
+[2025-11-14 20:24:54] [Info] [LoadSolutionFromFile] 開始非同步載入方案
+[2025-11-14 20:24:54] [Error] [LoadSolutionFromFile] 載入視覺方案失敗: 並未將物件參考設定為物件的執行個體。
+[2025-11-14 20:24:54] [Error] [LoadSolutionFromFile] 堆疊追蹤:    於 VM.Core.VmSolution.Load(String path, String password, Boolean isSilentExecute)
+   於 Vision_Master.Core.VmSolutionManager.<>c__DisplayClass1_0.<LoadSolutionFromFile>b__1() 於 C:\Users\11030056\source\repos\Vision_Master\Vision_Master\VmSolutionManager.cs: 行 144
+   於 System.Threading.Tasks.Task.InnerInvoke()
+   於 System.Threading.Tasks.Task.Execute()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   於 Vision_Master.Core.VmSolutionManager.<LoadSolutionFromFile>d__1.MoveNext() 於 C:\Users\11030056\source\repos\Vision_Master\Vision_Master\VmSolutionManager.cs: 行 144
+[2025-11-14 20:47:36] [Info] 應用程式初始化開始
+[2025-11-14 20:47:37] [Warning] 找不到視覺方案檔案: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-14 20:47:39] [Info] 應用程式初始化完成
+[2025-11-14 20:47:39] [Info] 程式啟動，版本號: 1.0.0
+[2025-11-14 20:47:40] [Info] [LoadSolution] SDK 未初始化，開始初始化...
+[2025-11-14 20:47:40] [Info] [SDK] 開始呼叫 PlatformSDK.Initialize()...
+[2025-11-14 20:47:40] [Info] [SDK] PlatformSDK.Initialize() 成功
+[2025-11-14 20:47:40] [Info] [SDK] VmSolution.Instance 已就緒
+[2025-11-14 20:47:40] [Info] [LoadSolution] 步驟 1: 準備載入方案
+[2025-11-14 20:47:40] [Info] [LoadSolution] 方案路徑: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-14 20:47:40] [Warning] [LoadSolution] 找不到視覺方案檔案: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-14 20:47:46] [Info] 自動載入視覺方案失敗，請手動載入
+[2025-11-14 20:47:50] [Info] 使用者選擇載入視覺方案: C:\Users\11030056\Desktop\VM\solution.solw
+[2025-11-14 20:47:50] [Info] [LoadSolutionFromFile] 開始非同步載入方案
+[2025-11-14 20:47:50] [Error] [LoadSolutionFromFile] 載入視覺方案失敗: 並未將物件參考設定為物件的執行個體。
+[2025-11-14 20:47:50] [Error] [LoadSolutionFromFile] 堆疊追蹤:    於 VM.Core.VmSolution.Load(String path, String password, Boolean isSilentExecute)
+   於 Vision_Master.Core.VmSolutionManager.<>c__DisplayClass5_0.<LoadSolutionFromFile>b__1() 於 C:\Users\11030056\source\repos\Vision_Master\Vision_Master\VmSolutionManager.cs: 行 239
+   於 System.Threading.Tasks.Task.InnerInvoke()
+   於 System.Threading.Tasks.Task.Execute()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   於 Vision_Master.Core.VmSolutionManager.<LoadSolutionFromFile>d__5.MoveNext() 於 C:\Users\11030056\source\repos\Vision_Master\Vision_Master\VmSolutionManager.cs: 行 239
+[2025-11-14 20:47:55] [Info] 程式已退出
+[2025-11-14 20:47:55] [Warning] 釋放視覺方案資源時發生錯誤: 'VM.PlatformSDKCS.CVmObjectBase' 的類型初始設定式發生例外狀況。
+[2025-11-14 20:47:55] [Info] [SDK] PlatformSDK.Uninitialize() 已呼叫
+[2025-11-14 20:52:42] [Info] 應用程式初始化開始
+[2025-11-14 20:52:43] [Warning] 找不到視覺方案檔案: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-14 20:52:45] [Info] 應用程式初始化完成
+[2025-11-14 20:52:45] [Info] 程式啟動，版本號: 1.0.0
+[2025-11-14 20:52:46] [Info] [LoadSolution] SDK 未初始化，開始初始化...
+[2025-11-14 20:52:46] [Info] [SDK] 開始呼叫 PlatformSDK.Initialize()...
+[2025-11-14 20:52:46] [Info] [SDK] PlatformSDK.Initialize() 成功
+[2025-11-14 20:52:46] [Info] [SDK] VmSolution.Instance 已就緒
+[2025-11-14 20:52:46] [Info] [LoadSolution] 步驟 1: 準備載入方案
+[2025-11-14 20:52:46] [Info] [LoadSolution] 方案路徑: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-14 20:52:46] [Warning] [LoadSolution] 找不到視覺方案檔案: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-14 20:52:47] [Info] 自動載入視覺方案失敗，請手動載入
+[2025-11-14 20:52:51] [Info] 使用者選擇載入視覺方案: C:\Users\11030056\Desktop\VM\solution.solw
+[2025-11-14 20:52:51] [Info] [LoadSolutionFromFile] 開始非同步載入方案
+[2025-11-14 20:52:51] [Error] [LoadSolutionFromFile] 載入視覺方案失敗: 並未將物件參考設定為物件的執行個體。
+[2025-11-14 20:52:51] [Error] [LoadSolutionFromFile] 堆疊追蹤:    於 VM.Core.VmSolution.Load(String path, String password, Boolean isSilentExecute)
+   於 Vision_Master.Core.VmSolutionManager.<>c__DisplayClass5_0.<LoadSolutionFromFile>b__1() 於 C:\Users\11030056\source\repos\Vision_Master\Vision_Master\VmSolutionManager.cs: 行 239
+   於 System.Threading.Tasks.Task.InnerInvoke()
+   於 System.Threading.Tasks.Task.Execute()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   於 Vision_Master.Core.VmSolutionManager.<LoadSolutionFromFile>d__5.MoveNext() 於 C:\Users\11030056\source\repos\Vision_Master\Vision_Master\VmSolutionManager.cs: 行 239
+[2025-11-14 20:55:23] [Info] 應用程式初始化開始
+[2025-11-14 20:55:23] [Warning] 找不到視覺方案檔案: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-14 20:55:26] [Info] 應用程式初始化完成
+[2025-11-14 20:55:26] [Info] 程式啟動，版本號: 1.0.0
+[2025-11-14 20:55:26] [Info] [LoadSolution] SDK 未初始化，開始初始化...
+[2025-11-14 20:55:26] [Info] [SDK] 開始呼叫 PlatformSDK.Initialize()...
+[2025-11-14 20:55:26] [Info] [SDK] PlatformSDK.Initialize() 成功
+[2025-11-14 20:55:26] [Info] [SDK] VmSolution.Instance 已就緒
+[2025-11-14 20:55:26] [Info] 正在檢查視覺方案檔案...
+[2025-11-14 20:55:27] [Info] [LoadSolution] 步驟 1: 準備載入方案
+[2025-11-14 20:55:27] [Info] [LoadSolution] 方案路徑: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-14 20:55:27] [Warning] [LoadSolution] 找不到視覺方案檔案: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-14 20:55:28] [Info] 自動載入視覺方案失敗，請手動載入
+[2025-11-14 20:55:33] [Info] 使用者選擇載入視覺方案: C:\Users\11030056\Desktop\VM\solution.solw
+[2025-11-14 20:55:33] [Info] [LoadSolutionFromFile] 開始非同步載入方案
+[2025-11-14 20:55:33] [Error] [LoadSolutionFromFile] 載入視覺方案失敗: 並未將物件參考設定為物件的執行個體。
+[2025-11-14 20:55:33] [Error] [LoadSolutionFromFile] 堆疊追蹤:    於 VM.Core.VmSolution.Load(String path, String password, Boolean isSilentExecute)
+   於 Vision_Master.Core.VmSolutionManager.<>c__DisplayClass8_0.<LoadSolutionFromFile>b__1() 於 C:\Users\11030056\source\repos\Vision_Master\Vision_Master\VmSolutionManager.cs: 行 261
+   於 System.Threading.Tasks.Task.InnerInvoke()
+   於 System.Threading.Tasks.Task.Execute()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   於 Vision_Master.Core.VmSolutionManager.<LoadSolutionFromFile>d__8.MoveNext() 於 C:\Users\11030056\source\repos\Vision_Master\Vision_Master\VmSolutionManager.cs: 行 261
+[2025-11-14 20:55:35] [Info] 程式已退出
+[2025-11-14 20:55:35] [Warning] 釋放視覺方案資源時發生錯誤: 'VM.PlatformSDKCS.CVmObjectBase' 的類型初始設定式發生例外狀況。
+[2025-11-14 20:55:35] [Info] [SDK] PlatformSDK.Uninitialize() 已呼叫
+[2025-11-14 20:58:45] [Info] 應用程式初始化開始
+[2025-11-14 20:58:46] [Info] 找到視覺方案檔案: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-14 20:58:47] [Info] 應用程式初始化完成
+[2025-11-14 20:58:47] [Info] 程式啟動，版本號: 1.0.0
+[2025-11-14 20:58:48] [Info] [LoadSolution] SDK 未初始化，開始初始化...
+[2025-11-14 20:58:48] [Info] [SDK] 開始呼叫 PlatformSDK.Initialize()...
+[2025-11-14 20:58:48] [Info] [SDK] PlatformSDK.Initialize() 成功
+[2025-11-14 20:58:48] [Info] [SDK] VmSolution.Instance 已就緒
+[2025-11-14 20:58:48] [Info] [LoadSolution] 步驟 1: 準備載入方案
+[2025-11-14 20:58:48] [Info] [LoadSolution] 方案路徑: C:\Users\11030056\source\repos\Vision_Master\Vision_Master\bin\Debug\solution.solw
+[2025-11-14 20:58:48] [Info] [LoadSolution] 步驟 2: 檔案存在，準備呼叫 VmSolution.Load()
+[2025-11-14 20:58:48] [Info] [LoadSolution] VmSolution.Instance 載入前狀態: 已存在
+[2025-11-14 20:58:48] [Info] [LoadSolution] 步驟 3: 開始載入方案...
+[2025-11-14 20:58:48] [Error] [LoadSolution] VmSolution.Load() 內部錯誤: 並未將物件參考設定為物件的執行個體。
+[2025-11-14 20:58:48] [Error] [LoadSolution] 載入視覺方案失敗: 並未將物件參考設定為物件的執行個體。
+[2025-11-14 20:58:48] [Error] [LoadSolution] 例外類型: System.NullReferenceException
+[2025-11-14 20:58:48] [Error] [LoadSolution] 堆疊追蹤:    於 VM.Core.VmSolution.Load(String path, String password, Boolean isSilentExecute)
+   於 Vision_Master.Core.VmSolutionManager.<>c__DisplayClass4_0.<LoadSolution>b__0() 於 C:\Users\11030056\source\repos\Vision_Master\Vision_Master\VmSolutionManager.cs: 行 157
+   於 System.Threading.Tasks.Task.InnerInvoke()
+   於 System.Threading.Tasks.Task.Execute()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   於 Vision_Master.Core.VmSolutionManager.<LoadSolution>d__4.MoveNext() 於 C:\Users\11030056\source\repos\Vision_Master\Vision_Master\VmSolutionManager.cs: 行 147
+[2025-11-14 20:58:50] [Info] 自動載入視覺方案失敗，請手動載入
